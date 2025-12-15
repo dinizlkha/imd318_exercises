@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JAVASCRIPT EXERCISE</title>
+</head>
+<body>
+
+	<h2>QUESTION 1</h2>
+	<p id="content_1">Welcome to my page</p>
+	<button type="button" onclick='document.getElementById("content_1").innerHTML= "I love to learn web design"'>Click Here</button>
+
+	<h2>QUESTION 2</h2>
+	<p id="style_1">Hello! Welcome to Faculty of Information Management</p>
+	<script>
+		function mystyle()
+		{
+			document.getElementById("style_1").style.fontSize="25px";
+			document.getElementById("style_1").style.color="blue";
+			document.getElementById("style_1").style.backgroundColor="yellow";
+			document.getElementById("style_1").style.fontFamily="CourierNew";
+		}
+	</script>
+	<button type="button" onclick="mystyle()">Click Here</button>
+
+	<h2>QUESTION 3</h2>
+	<script>
+		function myImage(a)
+		{
+			var pict;
+			if (a==1) 
+			{
+				pict="image/coffee_bean.jpg"
+			}
+			else
+			{
+				pict="image/coffee.jpg"
+			}
+			document.getElementById('gambar').src=pict;
+		}
+	</script>
+	<img src="image/coffee_bean.jpg" width="300" height="250" id="gambar">
+	<p>
+		<button type="button" onclick="myImage(1)">Coffee Beans</button>
+		<button type="button" onclick="myImage(2)"> Brew The Coffee</button>
+	</p>
+
+	<h2>QUESTION 4</h2>
+	<script>
+		{
+			alert("Assalamualaikum. \n Selamat datang ke kelas IMS456 \n Semoga kita beroleh ilmu bermanfaat")
+		}
+	</script>
+
+	<h2>QUESTION 5</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15392.393939300266!2d101.68831148872161!3d3.1470822675212977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0x9e3afdd17c8a9056!2sPetronas%20Twin%20Towers!5e0!3m2!1sen!2smy!4v1765290273504!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>

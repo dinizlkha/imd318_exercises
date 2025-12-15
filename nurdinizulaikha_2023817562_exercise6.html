@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML EXERCISE 6 TABLE</title>
+</head>
+<body>
+
+	<h3>QUESTION 1</h3>
+	<table border="1" width="100%">
+		<caption>List of students</caption>
+
+		<tr>
+			<th>Name</th>
+			<th>Phone No.</th>
+			<th>Email</th>
+			<th>Course</th>
+		</tr>
+
+		<tr>
+			<td>Nora Ishak</td>
+			<td>0190990880</td>
+			<td>Nora_ishak@gmail.com</td>
+			<td>IM110</td>
+		</tr>
+
+		<tr>
+			<td>Azmeer Ali</td>
+			<td>0112008800</td>
+			<td>Azmeer_ali@yahoo.com</td>
+			<td>IM110</td>
+		</tr>
+
+		<tr>
+			<td>Arizan Abdullah</td>
+			<td>0177779009</td>
+			<td>arizan@gmail.com</td>
+			<td>IM245</td>
+		</tr>
+
+		<tr>
+			<td>Zainab Esah</td>
+			<td>0198880099</td>
+			<td>z_esah@yahoo.com</td>
+			<td>CS110</td>
+		</tr>
+	</table>
+
+	<h3>QUESTION 2</h3>
+	<table border="1" width="100%">
+		<caption>List of images</caption>
+		<tr>
+			<th>Image</th>
+			<th>Description</th>
+		</tr>
+
+		<tr>
+			<td><img src="image/rabbit.jpg" width="100px" height="100px" alt="image of rabbit"></td>
+			<td>Rabbits or bunnies are small mammals in the family Leporidae, which is in the order Lagomorpha. They are familiar throughout the world as a small herbivore, a prey animal, a domesticated form of livestock, and a pet, having a widespread effect on ecologies and cultures.</td>
+		</tr>
+
+		<tr>
+			<td><img src="image/tulips.jpg" width="100px" height="100px" alt="image of pink tulips"></td>
+			<td>Pink tulips generally symbolize affection, caring, happiness, and good wishes. They are often used to express gentle love for friends and family, and they are a great way to congratulate someone on an accomplishment, like a new job or graduation.</td>
+		</tr>
+	</table>
+
+	<h3>QUESTION 3</h3>
+	<table border="1" width="100%">
+		<tr>
+			<th>Tea</th>
+			<th>Item</th>
+			<th>Price</th>
+			<th>Description</th>
+		</tr>
+
+		<tr>
+			<td rowspan="3">Black Teas</td>
+			<td>A01</td>
+			<td>RM23.00/box</td>
+			<td>Darjeeling</td>
+		</tr>
+
+		<tr>
+			<td>A02</td>
+			<td>RM25.00/box</td>
+			<td>Breakfast Tea</td>
+		</tr>
+
+		<tr>
+			<td>A03</td>
+			<td>RM19.90/box</td>
+			<td>Earl Grey</td>
+		</tr>
+
+		<tr>
+			<td>White Teas</td>
+			<td>B01</td>
+			<td>RM29.90/box</td>
+			<td>White Tip</td>
+		</tr>
+	</table>
+
+	<h3>QUESTION 4</h3>
+	<table border="1" width="100%">
+   	<tr>
+   		<th colspan="2">Name</th>
+   		<th>Age</th>
+   	</tr>
+
+   	<tr>
+   		<td>Jackson</td>
+   		<td>Jeffrey</td>
+   		<td>32</td>
+   	</tr>
+
+   	<tr>
+   		<td>Mark</td>
+   		<td>Matthew</td>
+   		<td>28</td>
+   	</tr>
+
+    <tr>
+   		<td>JayJay</td>
+   		<td>Johnson</td>
+   		<td>27</td>
+   	</tr>
+   </table>
+
+   <h3>QUESTION 5</h3>
+   <style>
+   	td,th {
+   		padding: 20px;
+   	}
+   </style>
+
+   <table border="1">
+   	<tr>
+   		<th>No.</th>
+   		<th>Fruit Name</th>
+   		<th>Quantity</th>
+   	</tr>
+   	
+   	<tr>
+   		<td>1</td>
+   		<td>Grape</td>
+   		<td>23 box</td>
+   	</tr>
+
+
+   	<tr>
+   		<td>2</td>
+   		<td>Pineapple</td>
+   		<td>20 box</td>
+   	</tr>
+
+   	<tr>
+   		<td>3</td>
+   		<td>Mango</td>
+   		<td>30 box</td>
+   	</tr>
+   </table>
+
+   <h3>QUESTION 6</h3>
+   <style>
+        .hoverTable tr:hover {
+            background-color: yellow;
+        }
+
+        .hoverTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .hoverTable th, .hoverTable td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table class="hoverTable">
+    <tr>
+        <th>Name</th>
+        <th>Phone No.</th>
+        <th>Email</th>
+        <th>Course</th>
+    </tr>
+
+    <tr>
+        <td>Nora Ishak</td>
+        <td>0190990880</td>
+        <td>Nora_ishak@gmail.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Azmeer Ali</td>
+        <td>0112008800</td>
+        <td>Azmeer_ali@yahoo.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Arizan Abdullah</td>
+        <td>0177779009</td>
+        <td>arizan@gmail.com</td>
+        <td>IM245</td>
+    </tr>
+
+    <tr>
+        <td>Zainab Esah</td>
+        <td>0198880099</td>
+        <td>z_esah@yahoo.com</td>
+        <td>CS110</td>
+    </tr>
+</table>
+
+<h3>QUESTION 7</h3>
+<style>
+        .rowColorTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .rowColorTable th, .rowColorTable td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .rowColorTable tr:nth-child(even) {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+
+<table class="rowColorTable">
+    <tr>
+        <th>Name</th>
+        <th>Phone No.</th>
+        <th>Email</th>
+        <th>Course</th>
+    </tr>
+
+    <tr>
+        <td>Nora Ishak</td>
+        <td>0190990880</td>
+        <td>Nora_ishak@gmail.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Azmeer Ali</td>
+        <td>0112008800</td>
+        <td>Azmeer_ali@yahoo.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Arizan Abdullah</td>
+        <td>0177779009</td>
+        <td>arizan@gmail.com</td>
+        <td>IM245</td>
+    </tr>
+
+    <tr>
+        <td>Zainab Esah</td>
+        <td>0198880099</td>
+        <td>z_esah@yahoo.com</td>
+        <td>CS110</td>
+    </tr>
+</table>
+
+<h3>QUESTION 8</h3>
+<style>
+        
+        .columnColorTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .columnColorTable th, .columnColorTable td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .columnColorTable td:nth-child(even),
+        .columnColorTable th:nth-child(even) {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<table class="columnColorTable">
+    <tr>
+        <th>Name</th>
+        <th>Phone No.</th>
+        <th>Email</th>
+        <th>Course</th>
+    </tr>
+
+    <tr>
+        <td>Nora Ishak</td>
+        <td>0190990880</td>
+        <td>Nora_ishak@gmail.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Azmeer Ali</td>
+        <td>0112008800</td>
+        <td>Azmeer_ali@yahoo.com</td>
+        <td>IM110</td>
+    </tr>
+
+    <tr>
+        <td>Arizan Abdullah</td>
+        <td>0177779009</td>
+        <td>arizan@gmail.com</td>
+        <td>IM245</td>
+    </tr>
+
+    <tr>
+        <td>Zainab Esah</td>
+        <td>0198880099</td>
+        <td>z_esah@yahoo.com</td>
+        <td>CS110</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dini's Personal Website</title>
+    <link rel="stylesheet" href="personal.css">
+</head>
+
+<body>
+
+		<script>
+		{
+			alert("Assalamualaikum, welcome to my personal webpage! \n Hope you enjoy~~")
+		}
+	</script>
+
+<header class="fade-in">
+    <h1>Welcome to My Website</h1>
+    <p class="italic">Get to know Dini Zulaikha</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="slide-in">
+    <h2>About Me</h2>
+    <p>Hi! My name is Nur Dini Zulaikha.</p>
+    <p>I was born on 18th June 2005 at Hospital Sultanah Nur Zahirah, Terengganu.</p>
+    <p>I have 4 siblings and I'm the second child.</p>
+    <p>In my freetime, I love to watch k-drama.</p>
+</section>
+
+<section id="gallery" class="fade-in">
+    <h2>My Gallery</h2>
+    <div class="gallery">
+        <img src="image/dini_1.jpg" alt="image of dini">
+        <img src="image/dini_2.jpg" alt="image of dini">
+        <img src="image/dini_4.jpg" alt="image of dini's parents">
+        <img src="image/dini_5.jpg" alt="image of dini's siblings">
+    </div>
+</section>
+
+	<script>
+		function myImage(a)
+		{
+			var pict;
+			if (a==1) 
+			{
+				pict="image/baby_dini.jpg"
+			}
+			else
+			{
+				pict="image/dini_3.jpg"
+			}
+			document.getElementById('gambar').src=pict;
+		}
+	</script>
+	<img src="image/baby_dini.jpg" width="300" height="550" id="gambar">
+	<p>
+		<button type="button" onclick="myImage(1)">Baby Dini</button>
+		<button type="button" onclick="myImage(2)"> Grown Up Dini</button>
+	</p>
+
+<section id="education" class="fade-in">
+    <h2>Education</h2>
+	<div class="image-box">
+	<img src="image/sk_sura.png" alt="Sekolah Rendah">
+    <p>Sekolah Kebangsaan Sura</p>
+    <p>2012 - 2016</p>
+    <img src="image/sk_padangmidin.jpg" alt="Sekolah Rendah">
+    <p>Sekolah Kebangsaan Padang Midin</p>
+    <p>2017</p>
+    <img src="image/aizek.png" alt="High School">
+    <p>Sekolah Menengah Kebangsaan Tengku Intan Zaharah</p>
+    <p>2018 - 2020</p>
+    <img src="image/sains_dungun.png" alt="High School">
+    <p>Sekolah Menengah Sains Dungun</p>
+    <p>2021 - 2022</p>
+    </div>
+
+<section id="skills" class="slide-in">
+    <h2>My Skills</h2>
+    <ul>
+        <li>masih berfikir</li>>
+    </ul>
+</section>
+
+<section id="experience" class="slide-in">
+    <h2>Experience</h2>
+    <ul>
+        <li>JPKDO 24/25</li>
+        <li>PMDS September 2024</li>
+        <li>Internship at Perpustakaan Cendekiawan UiTM Dungun</li>
+    </ul>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact Info</h2>
+    <p>Email: dinizulaikha214@gmail.com</p>
+    <p> Instagram :<a href="https://www.instagram.com/dinizlkha/" target="_blank">@dinizlkha</p></a>
+    <p> TikTok :<a href="https://www.tiktok.com/@flwrydni?lang=en" target="_blank">@flwrydni</p></a>
+</section>
+
+<footer>
+    <p>© 2025 Dini | IMD318 Personal Website</p>
+</footer>
+
+</body>
+</html>

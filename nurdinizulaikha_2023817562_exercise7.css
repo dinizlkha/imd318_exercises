@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+/* Two-column layout */
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* LEFT COLUMN – CV CONTENT (white box with border like image) */
+.cv-box {
+    width: 70%;
+    border: 2px solid black;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+/* RIGHT COLUMN – NAVIGATION BAR */
+.nav-box {
+    width: 30%;
+    border: 2px solid black;
+    border-left: none;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* NAV BAR TITLE */
+.nav-box h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* NAV LINKS – EXACT SPACING LIKE IMAGE */
+.nav-box ul {
+    list-style: none;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.nav-box li {
+    margin: 25px 0;
+    font-size: 16px;
+}
+
+/* HEADING 1 (Gray bar, blue text, center aligned) */
+.cv-title {
+    background: #d3d3d3;
+    color: #000080;  /* navy blue like picture */
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    letter-spacing: 2px;
+    margin: 0 0 30px 0;
+    line-height: 28px;
+}
+
+/* HEADING 2 (Georgia, dark red, 18px) */
+.heading {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: #8b0000; /* dark red */
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* GENERAL PARAGRAPH TEXT – Arial 16px */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* YEARS – bold */
+strong {
+    font-weight: bold;
+}
